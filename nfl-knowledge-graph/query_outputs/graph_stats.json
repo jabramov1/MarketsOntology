@@ -1,0 +1,118 @@
+{
+  "node_counts": [
+    {
+      "type": "Play",
+      "count": 9882
+    },
+    {
+      "type": "Drive",
+      "count": 4730
+    },
+    {
+      "type": "Player",
+      "count": 3215
+    },
+    {
+      "type": "InjuryEvent",
+      "count": 1459
+    },
+    {
+      "type": "BettingLine",
+      "count": 1020
+    },
+    {
+      "type": "Market",
+      "count": 510
+    },
+    {
+      "type": "OddsMovementEvent",
+      "count": 510
+    },
+    {
+      "type": "MarketResolutionEvent",
+      "count": 506
+    },
+    {
+      "type": "NewsItem",
+      "count": 399
+    },
+    {
+      "type": "Game",
+      "count": 285
+    },
+    {
+      "type": "Team",
+      "count": 36
+    },
+    {
+      "type": "Season",
+      "count": 1
+    },
+    {
+      "type": "Venue",
+      "count": 1
+    }
+  ],
+  "relationship_counts": [
+    {
+      "rel": "HAS_PLAY",
+      "count": 9882
+    },
+    {
+      "rel": "HAS_DRIVE",
+      "count": 4730
+    },
+    {
+      "rel": "PLAYS_FOR",
+      "count": 3215
+    },
+    {
+      "rel": "AFFECTS",
+      "count": 1459
+    },
+    {
+      "rel": "HAS_LINE",
+      "count": 1020
+    },
+    {
+      "rel": "HAS_MARKET",
+      "count": 510
+    },
+    {
+      "rel": "QUOTED_ON",
+      "count": 510
+    },
+    {
+      "rel": "HAS_ODDS_MOVE",
+      "count": 510
+    },
+    {
+      "rel": "RESOLVED_BY",
+      "count": 506
+    },
+    {
+      "rel": "PART_OF_SEASON",
+      "count": 285
+    },
+    {
+      "rel": "HOME_TEAM",
+      "count": 285
+    },
+    {
+      "rel": "AWAY_TEAM",
+      "count": 285
+    },
+    {
+      "rel": "REFERS_TO_GAME",
+      "count": 240
+    },
+    {
+      "rel": "REFERS_TO_TEAM",
+      "count": 160
+    },
+    {
+      "rel": "REFERS_TO_PLAYER",
+      "count": 159
+    }
+  ]
+}

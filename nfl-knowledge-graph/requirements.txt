@@ -1,0 +1,7 @@
+neo4j>=5.25.0
+pandas>=2.2.0
+numpy>=1.26.0
+pyarrow>=16.0.0
+python-dotenv>=1.0.1
+nfl_data_py>=0.3.0
+sentence-transformers>=2.2.0
