@@ -17,7 +17,7 @@ pip install -r requirements.txt
 ```
 
 ### Neo4j Aura credentials
-Copy `.env.example` → `.env` and fill:
+Create a `.env` file (or export env vars) with:
 - `NEO4J_URI`
 - `NEO4J_USERNAME`
 - `NEO4J_PASSWORD`
@@ -30,8 +30,8 @@ python db.py
 ## 2) Get data (2024)
 
 ```bash
-python scripts/download_data.py --season 2024 --pbp-sample 10000
-python scripts/generate_news.py --season 2024  # deterministic: 1 preview per game, 1 item per injury row
+python download_data.py --season 2024 --pbp-sample 10000
+python generate_news.py --season 2024  # deterministic: 1 preview per game + injury items (+ sparse roster notes)
 ```
 
 Optional odds dataset (Kaggle):
@@ -56,8 +56,8 @@ Outputs:
 ## (Optional) Semantic search (NewsItem embeddings)
 
 ```bash
-python scripts/embed_news.py                 # embeds News + Markets; add --include-plays for Plays
-python scripts/embed_news.py --q "quarterback injury" --k 5
+python embed_news.py                 # embeds News + Markets; add --include-plays for Plays
+python embed_news.py --q "quarterback injury" --k 5
 ```
 
 Embed other text-bearing nodes (optional):
@@ -173,9 +173,9 @@ See [ontology_spec.md Section 3.6](ontology_spec.md#36-relationship-classificati
 MATCH (i:InjuryEvent)-[:AFFECTS]->(p:Player)-[:PLAYS_FOR]->(t:Team)
 MATCH (g:Game)-[:HOME_TEAM|AWAY_TEAM]->(t)
 MATCH (g)-[:HAS_MARKET]->(m:Market)-[:HAS_ODDS_MOVE]->(om:OddsMovementEvent)
-WHERE abs(duration.between(i.reported_at, om.at_time).hours) < 48
+WHERE abs(duration.inSeconds(i.reported_at, om.at_time).seconds) < 48 * 3600
 RETURN i.injury_type, p.name, om.change_magnitude,
-       duration.between(i.reported_at, om.at_time) AS time_gap
+       toFloat(duration.inSeconds(i.reported_at, om.at_time).seconds) / 3600.0 AS hours_gap
 ORDER BY om.change_magnitude DESC
 // ✅ Temporal correlation without speculation
 ```

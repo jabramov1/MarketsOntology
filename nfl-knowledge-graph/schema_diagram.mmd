@@ -1,0 +1,56 @@
+flowchart LR
+  %% NFL Event & Market Temporal Knowledge Graph (MVP)
+  %% Mermaid source file: paste into https://mermaid.live to render/export.
+
+  subgraph Events
+    Season[Season]
+    Game[Game]
+    Drive[Drive]
+    Play[Play]
+  end
+
+  subgraph Participants
+    Team[Team]
+    Player[Player]
+  end
+
+  subgraph Markets
+    Venue[Venue]
+    Market[Market]
+    BettingLine[BettingLine]
+    OddsMove[OddsMovementEvent]
+    MarketRes[MarketResolutionEvent]
+  end
+
+  subgraph Signals
+    Injury[InjuryEvent]
+    News[NewsItem]
+  end
+
+  %% Event hierarchy + participants
+  Game -->|PART_OF_SEASON| Season
+  Game -->|HOME_TEAM| Team
+  Game -->|AWAY_TEAM| Team
+  Game -->|HAS_DRIVE| Drive
+  Drive -->|HAS_PLAY {sequence}| Play
+
+  %% Player links
+  Player -->|PLAYS_FOR {valid_from, valid_to, valid_to_or_max}| Team
+  Player -->|PARTICIPATED_IN {role, yards}| Play
+  Player -->|PLAYED_IN {plays, yards}| Game
+
+  %% Markets, lines, movements, resolution
+  Game -->|HAS_MARKET| Market
+  Market -->|QUOTED_ON| Venue
+  Market -->|HAS_LINE| BettingLine
+  Market -.->|HAS_ODDS_MOVE (optional / synthetic)| OddsMove
+  Market -->|RESOLVED_BY| MarketRes
+
+  %% Signals + linkage
+  Injury -->|AFFECTS| Player
+  Injury -->|REPORTED_BEFORE {days_before}| Game
+
+  News -->|REFERS_TO_GAME {confidence}| Game
+  News -->|REFERS_TO_TEAM {confidence}| Team
+  News -->|REFERS_TO_PLAYER {confidence}| Player
+  News -->|REFERS_TO_MARKET {confidence}| Market
