@@ -8,7 +8,21 @@ This repo builds a Neo4j graph for the **2024 NFL season** with:
 - (Optional) synthetic `OddsMovementEvent` snapshots for end-to-end temporal demos
 - News + injuries + example Cypher queries (season-aligned synthetic timestamps)
 
+Docs + diagrams:
+
+- Ontology spec: `nfl-knowledge-graph/ontology_spec.md`
+- Temporal notes: `nfl-knowledge-graph/TEMPORAL_GUIDE.md`
+- Diagram (image): `Diagram.png`
+- Diagram (Mermaid): `nfl-knowledge-graph/schema_diagram.mmd`
+- Neo4j screenshot queries: `nfl-knowledge-graph/query_outputs/neo4j_screenshot_queries.cypher`
+
 ## 1) Setup
+
+Run everything from the project subfolder:
+
+```bash
+cd nfl-knowledge-graph
+```
 
 ### Install
 
