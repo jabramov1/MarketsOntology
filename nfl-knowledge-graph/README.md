@@ -82,6 +82,9 @@ Link detection / completeness checking is available as a read-only script (no ed
 python3 link_detection.py --out-dir query_outputs
 ```
 
+This writes:
+- `query_outputs/link_detection.json`
+
 ## Data Sources and Provenance
 
 ### Kaggle NFL Betting Data
