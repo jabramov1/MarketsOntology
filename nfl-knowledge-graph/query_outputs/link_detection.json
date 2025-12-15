@@ -1,0 +1,1012 @@
+{
+  "generated_at": "2025-12-15T18:25:31.916801+00:00",
+  "mode": "all",
+  "params": {
+    "window_hours": 24,
+    "min_change": 0.5,
+    "limit": 100
+  },
+  "unexplained_odds_moves": [
+    {
+      "game_id": "NFL_2024_REG_WK2_LAC_CAR",
+      "market_id": "NFL_2024_REG_WK2_LAC_CAR_M_TOTAL",
+      "market_type": "TOTAL",
+      "odds_move_id": "NFL_2024_REG_WK2_LAC_CAR_M_TOTAL_OM1",
+      "moved_at": "2024-09-14T21:00:00Z",
+      "change_magnitude": 3.0253148868636046,
+      "direction": "UP",
+      "move_name": "35.5\u219238.5"
+    },
+    {
+      "game_id": "NFL_2024_REG_WK4_TEN_MIA",
+      "market_id": "NFL_2024_REG_WK4_TEN_MIA_M_TOTAL",
+      "market_type": "TOTAL",
+      "odds_move_id": "NFL_2024_REG_WK4_TEN_MIA_M_TOTAL_OM1",
+      "moved_at": "2024-09-29T21:00:00Z",
+      "change_magnitude": 2.875703554693395,
+      "direction": "UP",
+      "move_name": "35.1\u219238.0"
+    },
+    {
+      "game_id": "NFL_2024_REG_WK4_DEN_NYJ",
+      "market_id": "NFL_2024_REG_WK4_DEN_NYJ_M_TOTAL",
+      "market_type": "TOTAL",
+      "odds_move_id": "NFL_2024_REG_WK4_DEN_NYJ_M_TOTAL_OM1",
+      "moved_at": "2024-09-28T21:00:00Z",
+      "change_magnitude": 2.7931255420417145,
+      "direction": "DOWN",
+      "move_name": "42.3\u219239.5"
+    },
+    {
+      "game_id": "NFL_2024_REG_WK4_NO_ATL",
+      "market_id": "NFL_2024_REG_WK4_NO_ATL_M_TOTAL",
+      "market_type": "TOTAL",
+      "odds_move_id": "NFL_2024_REG_WK4_NO_ATL_M_TOTAL_OM1",
+      "moved_at": "2024-09-28T21:00:00Z",
+      "change_magnitude": 2.6001692296953536,
+      "direction": "DOWN",
+      "move_name": "45.1\u219242.5"
+    },
+    {
+      "game_id": "NFL_2024_REG_WK1_DEN_SEA",
+      "market_id": "NFL_2024_REG_WK1_DEN_SEA_M_TOTAL",
+      "market_type": "TOTAL",
+      "odds_move_id": "NFL_2024_REG_WK1_DEN_SEA_M_TOTAL_OM1",
+      "moved_at": "2024-09-07T21:00:00Z",
+      "change_magnitude": 2.506294036368125,
+      "direction": "DOWN",
+      "move_name": "44.5\u219242.0"
+    },
+    {
+      "game_id": "NFL_2024_REG_WK10_TEN_LAC",
+      "market_id": "NFL_2024_REG_WK10_TEN_LAC_M_TOTAL",
+      "market_type": "TOTAL",
+      "odds_move_id": "NFL_2024_REG_WK10_TEN_LAC_M_TOTAL_OM1",
+      "moved_at": "2024-11-09T21:00:00Z",
+      "change_magnitude": 2.450825163751084,
+      "direction": "DOWN",
+      "move_name": "42.5\u219240.0"
+    },
+    {
+      "game_id": "NFL_2024_REG_WK1_NE_CIN",
+      "market_id": "NFL_2024_REG_WK1_NE_CIN_M_TOTAL",
+      "market_type": "TOTAL",
+      "odds_move_id": "NFL_2024_REG_WK1_NE_CIN_M_TOTAL_OM1",
+      "moved_at": "2024-09-07T21:00:00Z",
+      "change_magnitude": 2.2940419468138344,
+      "direction": "DOWN",
+      "move_name": "43.3\u219241.0"
+    },
+    {
+      "game_id": "NFL_2024_REG_WK18_KC_DEN",
+      "market_id": "NFL_2024_REG_WK18_KC_DEN_M_TOTAL",
+      "market_type": "TOTAL",
+      "odds_move_id": "NFL_2024_REG_WK18_KC_DEN_M_TOTAL_OM1",
+      "moved_at": "2025-01-04T21:00:00Z",
+      "change_magnitude": 2.2693035924648512,
+      "direction": "DOWN",
+      "move_name": "42.8\u219240.5"
+    },
+    {
+      "game_id": "NFL_2024_REG_WK10_DET_HOU",
+      "market_id": "NFL_2024_REG_WK10_DET_HOU_M_TOTAL",
+      "market_type": "TOTAL",
+      "odds_move_id": "NFL_2024_REG_WK10_DET_HOU_M_TOTAL_OM1",
+      "moved_at": "2024-11-09T21:00:00Z",
+      "change_magnitude": 2.1954590456180796,
+      "direction": "UP",
+      "move_name": "46.8\u219249.0"
+    },
+    {
+      "game_id": "NFL_2024_REG_WK9_JAX_PHI",
+      "market_id": "NFL_2024_REG_WK9_JAX_PHI_M_TOTAL",
+      "market_type": "TOTAL",
+      "odds_move_id": "NFL_2024_REG_WK9_JAX_PHI_M_TOTAL_OM1",
+      "moved_at": "2024-11-02T21:00:00Z",
+      "change_magnitude": 2.0989062347479788,
+      "direction": "DOWN",
+      "move_name": "48.1\u219246.0"
+    },
+    {
+      "game_id": "NFL_2024_REG_WK18_CHI_GB",
+      "market_id": "NFL_2024_REG_WK18_CHI_GB_M_TOTAL",
+      "market_type": "TOTAL",
+      "odds_move_id": "NFL_2024_REG_WK18_CHI_GB_M_TOTAL_OM1",
+      "moved_at": "2025-01-04T21:00:00Z",
+      "change_magnitude": 2.083584098630112,
+      "direction": "UP",
+      "move_name": "39.4\u219241.5"
+    },
+    {
+      "game_id": "NFL_2024_REG_WK16_TB_DAL",
+      "market_id": "NFL_2024_REG_WK16_TB_DAL_M_TOTAL",
+      "market_type": "TOTAL",
+      "odds_move_id": "NFL_2024_REG_WK16_TB_DAL_M_TOTAL_OM1",
+      "moved_at": "2024-12-21T21:00:00Z",
+      "change_magnitude": 2.055417744098726,
+      "direction": "DOWN",
+      "move_name": "49.6\u219247.5"
+    },
+    {
+      "game_id": "NFL_2024_REG_WK3_JAX_BUF",
+      "market_id": "NFL_2024_REG_WK3_JAX_BUF_M_TOTAL",
+      "market_type": "TOTAL",
+      "odds_move_id": "NFL_2024_REG_WK3_JAX_BUF_M_TOTAL_OM1",
+      "moved_at": "2024-09-22T21:00:00Z",
+      "change_magnitude": 1.9519677074438846,
+      "direction": "UP",
+      "move_name": "44.5\u219246.5"
+    },
+    {
+      "game_id": "NFL_2024_REG_WK4_JAX_HOU",
+      "market_id": "NFL_2024_REG_WK4_JAX_HOU_M_TOTAL",
+      "market_type": "TOTAL",
+      "odds_move_id": "NFL_2024_REG_WK4_JAX_HOU_M_TOTAL_OM1",
+      "moved_at": "2024-09-28T21:00:00Z",
+      "change_magnitude": 1.9101901085650894,
+      "direction": "UP",
+      "move_name": "42.6\u219244.5"
+    },
+    {
+      "game_id": "NFL_2024_REG_WK1_LV_LAC",
+      "market_id": "NFL_2024_REG_WK1_LV_LAC_M_TOTAL",
+      "market_type": "TOTAL",
+      "odds_move_id": "NFL_2024_REG_WK1_LV_LAC_M_TOTAL_OM1",
+      "moved_at": "2024-09-07T21:00:00Z",
+      "change_magnitude": 1.9031110987123867,
+      "direction": "UP",
+      "move_name": "38.1\u219240.0"
+    },
+    {
+      "game_id": "NFL_2024_REG_WK10_SF_TB",
+      "market_id": "NFL_2024_REG_WK10_SF_TB_M_TOTAL",
+      "market_type": "TOTAL",
+      "odds_move_id": "NFL_2024_REG_WK10_SF_TB_M_TOTAL_OM1",
+      "moved_at": "2024-11-09T21:00:00Z",
+      "change_magnitude": 1.8932225229170356,
+      "direction": "DOWN",
+      "move_name": "51.9\u219250.0"
+    },
+    {
+      "game_id": "NFL_2024_REG_WK16_JAX_LV",
+      "market_id": "NFL_2024_REG_WK16_JAX_LV_M_TOTAL",
+      "market_type": "TOTAL",
+      "odds_move_id": "NFL_2024_REG_WK16_JAX_LV_M_TOTAL_OM1",
+      "moved_at": "2024-12-21T21:00:00Z",
+      "change_magnitude": 1.8674567914200466,
+      "direction": "UP",
+      "move_name": "39.6\u219241.5"
+    },
+    {
+      "game_id": "NFL_2024_REG_WK2_ATL_PHI",
+      "market_id": "NFL_2024_REG_WK2_ATL_PHI_M_TOTAL",
+      "market_type": "TOTAL",
+      "odds_move_id": "NFL_2024_REG_WK2_ATL_PHI_M_TOTAL_OM1",
+      "moved_at": "2024-09-15T21:00:00Z",
+      "change_magnitude": 1.7678408776479273,
+      "direction": "DOWN",
+      "move_name": "48.3\u219246.5"
+    },
+    {
+      "game_id": "NFL_2024_REG_WK15_BUF_DET",
+      "market_id": "NFL_2024_REG_WK15_BUF_DET_M_TOTAL",
+      "market_type": "TOTAL",
+      "odds_move_id": "NFL_2024_REG_WK15_BUF_DET_M_TOTAL_OM1",
+      "moved_at": "2024-12-14T21:00:00Z",
+      "change_magnitude": 1.7556592520098846,
+      "direction": "DOWN",
+      "move_name": "57.3\u219255.5"
+    },
+    {
+      "game_id": "NFL_2024_REG_WK11_SEA_SF",
+      "market_id": "NFL_2024_REG_WK11_SEA_SF_M_TOTAL",
+      "market_type": "TOTAL",
+      "odds_move_id": "NFL_2024_REG_WK11_SEA_SF_M_TOTAL_OM1",
+      "moved_at": "2024-11-16T21:00:00Z",
+      "change_magnitude": 1.7367331883532557,
+      "direction": "DOWN",
+      "move_name": "50.7\u219249.0"
+    },
+    {
+      "game_id": "NFL_2024_REG_WK5_CLE_WAS",
+      "market_id": "NFL_2024_REG_WK5_CLE_WAS_M_TOTAL",
+      "market_type": "TOTAL",
+      "odds_move_id": "NFL_2024_REG_WK5_CLE_WAS_M_TOTAL_OM1",
+      "moved_at": "2024-10-05T21:00:00Z",
+      "change_magnitude": 1.7218648797752394,
+      "direction": "UP",
+      "move_name": "42.3\u219244.0"
+    },
+    {
+      "game_id": "NFL_2024_REG_WK5_NYG_SEA",
+      "market_id": "NFL_2024_REG_WK5_NYG_SEA_M_TOTAL",
+      "market_type": "TOTAL",
+      "odds_move_id": "NFL_2024_REG_WK5_NYG_SEA_M_TOTAL_OM1",
+      "moved_at": "2024-10-05T21:00:00Z",
+      "change_magnitude": 1.7023719674783848,
+      "direction": "UP",
+      "move_name": "40.8\u219242.5"
+    },
+    {
+      "game_id": "NFL_2024_REG_WK3_NE_NYJ",
+      "market_id": "NFL_2024_REG_WK3_NE_NYJ_M_TOTAL",
+      "market_type": "TOTAL",
+      "odds_move_id": "NFL_2024_REG_WK3_NE_NYJ_M_TOTAL_OM1",
+      "moved_at": "2024-09-18T21:00:00Z",
+      "change_magnitude": 1.6934204423853103,
+      "direction": "DOWN",
+      "move_name": "40.7\u219239.0"
+    },
+    {
+      "game_id": "NFL_2024_REG_WK7_KC_SF",
+      "market_id": "NFL_2024_REG_WK7_KC_SF_M_TOTAL",
+      "market_type": "TOTAL",
+      "odds_move_id": "NFL_2024_REG_WK7_KC_SF_M_TOTAL_OM1",
+      "moved_at": "2024-10-19T21:00:00Z",
+      "change_magnitude": 1.6566950444961392,
+      "direction": "UP",
+      "move_name": "46.3\u219248.0"
+    },
+    {
+      "game_id": "NFL_2024_REG_WK8_BUF_SEA",
+      "market_id": "NFL_2024_REG_WK8_BUF_SEA_M_TOTAL",
+      "market_type": "TOTAL",
+      "odds_move_id": "NFL_2024_REG_WK8_BUF_SEA_M_TOTAL_OM1",
+      "moved_at": "2024-10-26T21:00:00Z",
+      "change_magnitude": 1.6558183117148175,
+      "direction": "DOWN",
+      "move_name": "46.7\u219245.0"
+    },
+    {
+      "game_id": "NFL_2024_REG_WK15_MIA_HOU",
+      "market_id": "NFL_2024_REG_WK15_MIA_HOU_M_TOTAL",
+      "market_type": "TOTAL",
+      "odds_move_id": "NFL_2024_REG_WK15_MIA_HOU_M_TOTAL_OM1",
+      "moved_at": "2024-12-14T21:00:00Z",
+      "change_magnitude": 1.6455596094442129,
+      "direction": "UP",
+      "move_name": "44.4\u219246.0"
+    },
+    {
+      "game_id": "NFL_2024_REG_WK1_DAL_CLE",
+      "market_id": "NFL_2024_REG_WK1_DAL_CLE_M_TOTAL",
+      "market_type": "TOTAL",
+      "odds_move_id": "NFL_2024_REG_WK1_DAL_CLE_M_TOTAL_OM1",
+      "moved_at": "2024-09-07T21:00:00Z",
+      "change_magnitude": 1.555046763247745,
+      "direction": "DOWN",
+      "move_name": "42.6\u219241.0"
+    },
+    {
+      "game_id": "NFL_2024_REG_WK5_CAR_CHI",
+      "market_id": "NFL_2024_REG_WK5_CAR_CHI_M_TOTAL",
+      "market_type": "TOTAL",
+      "odds_move_id": "NFL_2024_REG_WK5_CAR_CHI_M_TOTAL_OM1",
+      "moved_at": "2024-10-05T21:00:00Z",
+      "change_magnitude": 1.5315062305092937,
+      "direction": "DOWN",
+      "move_name": "42.0\u219240.5"
+    },
+    {
+      "game_id": "NFL_2024_REG_WK11_WAS_PHI",
+      "market_id": "NFL_2024_REG_WK11_WAS_PHI_M_TOTAL",
+      "market_type": "TOTAL",
+      "odds_move_id": "NFL_2024_REG_WK11_WAS_PHI_M_TOTAL_OM1",
+      "moved_at": "2024-11-13T21:00:00Z",
+      "change_magnitude": 1.5260531301520004,
+      "direction": "DOWN",
+      "move_name": "51.0\u219249.5"
+    },
+    {
+      "game_id": "NFL_2024_REG_WK11_LV_MIA",
+      "market_id": "NFL_2024_REG_WK11_LV_MIA_M_TOTAL",
+      "market_type": "TOTAL",
+      "odds_move_id": "NFL_2024_REG_WK11_LV_MIA_M_TOTAL_OM1",
+      "moved_at": "2024-11-16T21:00:00Z",
+      "change_magnitude": 1.516572752981503,
+      "direction": "DOWN",
+      "move_name": "45.0\u219243.5"
+    },
+    {
+      "game_id": "NFL_2024_REG_WK10_MIN_JAX",
+      "market_id": "NFL_2024_REG_WK10_MIN_JAX_M_TOTAL",
+      "market_type": "TOTAL",
+      "odds_move_id": "NFL_2024_REG_WK10_MIN_JAX_M_TOTAL_OM1",
+      "moved_at": "2024-11-09T21:00:00Z",
+      "change_magnitude": 1.4934910035360858,
+      "direction": "UP",
+      "move_name": "41.0\u219242.5"
+    },
+    {
+      "game_id": "NFL_2024_REG_WK9_MIA_BUF",
+      "market_id": "NFL_2024_REG_WK9_MIA_BUF_M_TOTAL",
+      "market_type": "TOTAL",
+      "odds_move_id": "NFL_2024_REG_WK9_MIA_BUF_M_TOTAL_OM1",
+      "moved_at": "2024-11-02T21:00:00Z",
+      "change_magnitude": 1.4759172285559572,
+      "direction": "UP",
+      "move_name": "47.5\u219249.0"
+    },
+    {
+      "game_id": "NFL_2024_REG_WK2_BUF_MIA",
+      "market_id": "NFL_2024_REG_WK2_BUF_MIA_M_TOTAL",
+      "market_type": "TOTAL",
+      "odds_move_id": "NFL_2024_REG_WK2_BUF_MIA_M_TOTAL_OM1",
+      "moved_at": "2024-09-11T21:00:00Z",
+      "change_magnitude": 1.4450422236715212,
+      "direction": "UP",
+      "move_name": "47.1\u219248.5"
+    },
+    {
+      "game_id": "NFL_2024_REG_WK13_LV_KC",
+      "market_id": "NFL_2024_REG_WK13_LV_KC_M_TOTAL",
+      "market_type": "TOTAL",
+      "odds_move_id": "NFL_2024_REG_WK13_LV_KC_M_TOTAL_OM1",
+      "moved_at": "2024-11-28T21:00:00Z",
+      "change_magnitude": 1.4375023482652765,
+      "direction": "UP",
+      "move_name": "40.6\u219242.0"
+    },
+    {
+      "game_id": "NFL_2024_REG_WK14_JAX_TEN",
+      "market_id": "NFL_2024_REG_WK14_JAX_TEN_M_TOTAL",
+      "market_type": "TOTAL",
+      "odds_move_id": "NFL_2024_REG_WK14_JAX_TEN_M_TOTAL_OM1",
+      "moved_at": "2024-12-07T21:00:00Z",
+      "change_magnitude": 1.408498446600973,
+      "direction": "UP",
+      "move_name": "39.1\u219240.5"
+    },
+    {
+      "game_id": "NFL_2024_REG_WK5_BUF_HOU",
+      "market_id": "NFL_2024_REG_WK5_BUF_HOU_M_TOTAL",
+      "market_type": "TOTAL",
+      "odds_move_id": "NFL_2024_REG_WK5_BUF_HOU_M_TOTAL_OM1",
+      "moved_at": "2024-10-05T21:00:00Z",
+      "change_magnitude": 1.385527597502744,
+      "direction": "UP",
+      "move_name": "46.1\u219247.5"
+    },
+    {
+      "game_id": "NFL_2024_REG_WK15_DAL_CAR",
+      "market_id": "NFL_2024_REG_WK15_DAL_CAR_M_TOTAL",
+      "market_type": "TOTAL",
+      "odds_move_id": "NFL_2024_REG_WK15_DAL_CAR_M_TOTAL_OM1",
+      "moved_at": "2024-12-14T21:00:00Z",
+      "change_magnitude": 1.3741246136815022,
+      "direction": "DOWN",
+      "move_name": "43.4\u219242.0"
+    },
+    {
+      "game_id": "NFL_2024_REG_WK6_DET_DAL",
+      "market_id": "NFL_2024_REG_WK6_DET_DAL_M_TOTAL",
+      "market_type": "TOTAL",
+      "odds_move_id": "NFL_2024_REG_WK6_DET_DAL_M_TOTAL_OM1",
+      "moved_at": "2024-10-12T21:00:00Z",
+      "change_magnitude": 1.370064636538686,
+      "direction": "DOWN",
+      "move_name": "54.9\u219253.5"
+    },
+    {
+      "game_id": "NFL_2024_REG_WK3_LAC_PIT",
+      "market_id": "NFL_2024_REG_WK3_LAC_PIT_M_TOTAL",
+      "market_type": "TOTAL",
+      "odds_move_id": "NFL_2024_REG_WK3_LAC_PIT_M_TOTAL_OM1",
+      "moved_at": "2024-09-21T21:00:00Z",
+      "change_magnitude": 1.367253004917103,
+      "direction": "DOWN",
+      "move_name": "36.9\u219235.5"
+    },
+    {
+      "game_id": "NFL_2024_REG_WK2_SF_MIN",
+      "market_id": "NFL_2024_REG_WK2_SF_MIN_M_TOTAL",
+      "market_type": "TOTAL",
+      "odds_move_id": "NFL_2024_REG_WK2_SF_MIN_M_TOTAL_OM1",
+      "moved_at": "2024-09-14T21:00:00Z",
+      "change_magnitude": 1.3378457475981804,
+      "direction": "DOWN",
+      "move_name": "47.8\u219246.5"
+    },
+    {
+      "game_id": "NFL_2024_REG_WK13_SF_BUF",
+      "market_id": "NFL_2024_REG_WK13_SF_BUF_M_TOTAL",
+      "market_type": "TOTAL",
+      "odds_move_id": "NFL_2024_REG_WK13_SF_BUF_M_TOTAL_OM1",
+      "moved_at": "2024-11-30T21:00:00Z",
+      "change_magnitude": 1.3255577617515897,
+      "direction": "UP",
+      "move_name": "44.2\u219245.5"
+    },
+    {
+      "game_id": "NFL_2024_REG_WK16_ARI_CAR",
+      "market_id": "NFL_2024_REG_WK16_ARI_CAR_M_TOTAL",
+      "market_type": "TOTAL",
+      "odds_move_id": "NFL_2024_REG_WK16_ARI_CAR_M_TOTAL_OM1",
+      "moved_at": "2024-12-21T21:00:00Z",
+      "change_magnitude": 1.3200381296465054,
+      "direction": "UP",
+      "move_name": "45.7\u219247.0"
+    },
+    {
+      "game_id": "NFL_2024_REG_WK4_BUF_BAL",
+      "market_id": "NFL_2024_REG_WK4_BUF_BAL_M_SPREAD_FAV",
+      "market_type": "SPREAD",
+      "odds_move_id": "NFL_2024_REG_WK4_BUF_BAL_M_SPREAD_FAV_OM1",
+      "moved_at": "2024-09-28T21:00:00Z",
+      "change_magnitude": 1.3152903818842505,
+      "direction": "UP",
+      "move_name": "-3.8\u2192-2.5"
+    },
+    {
+      "game_id": "NFL_2024_REG_WK10_NE_CHI",
+      "market_id": "NFL_2024_REG_WK10_NE_CHI_M_TOTAL",
+      "market_type": "TOTAL",
+      "odds_move_id": "NFL_2024_REG_WK10_NE_CHI_M_TOTAL_OM1",
+      "moved_at": "2024-11-09T21:00:00Z",
+      "change_magnitude": 1.3124859611881803,
+      "direction": "UP",
+      "move_name": "36.2\u219237.5"
+    },
+    {
+      "game_id": "NFL_2024_REG_WK12_DEN_LV",
+      "market_id": "NFL_2024_REG_WK12_DEN_LV_M_TOTAL",
+      "market_type": "TOTAL",
+      "odds_move_id": "NFL_2024_REG_WK12_DEN_LV_M_TOTAL_OM1",
+      "moved_at": "2024-11-23T21:00:00Z",
+      "change_magnitude": 1.2997711205121618,
+      "direction": "UP",
+      "move_name": "40.2\u219241.5"
+    },
+    {
+      "game_id": "NFL_2024_REG_WK13_CHI_DET",
+      "market_id": "NFL_2024_REG_WK13_CHI_DET_M_TOTAL",
+      "market_type": "TOTAL",
+      "odds_move_id": "NFL_2024_REG_WK13_CHI_DET_M_TOTAL_OM1",
+      "moved_at": "2024-11-27T21:00:00Z",
+      "change_magnitude": 1.2833514527528394,
+      "direction": "DOWN",
+      "move_name": "49.3\u219248.0"
+    },
+    {
+      "game_id": "NFL_2024_REG_WK14_CLE_PIT",
+      "market_id": "NFL_2024_REG_WK14_CLE_PIT_M_TOTAL",
+      "market_type": "TOTAL",
+      "odds_move_id": "NFL_2024_REG_WK14_CLE_PIT_M_TOTAL_OM1",
+      "moved_at": "2024-12-07T21:00:00Z",
+      "change_magnitude": 1.2817157103602241,
+      "direction": "UP",
+      "move_name": "41.7\u219243.0"
+    },
+    {
+      "game_id": "NFL_2024_REG_WK8_NYJ_NE",
+      "market_id": "NFL_2024_REG_WK8_NYJ_NE_M_TOTAL",
+      "market_type": "TOTAL",
+      "odds_move_id": "NFL_2024_REG_WK8_NYJ_NE_M_TOTAL_OM1",
+      "moved_at": "2024-10-26T21:00:00Z",
+      "change_magnitude": 1.2486183962601558,
+      "direction": "DOWN",
+      "move_name": "42.2\u219241.0"
+    },
+    {
+      "game_id": "NFL_2024_REG_WK1_MIN_NYG",
+      "market_id": "NFL_2024_REG_WK1_MIN_NYG_M_TOTAL",
+      "market_type": "TOTAL",
+      "odds_move_id": "NFL_2024_REG_WK1_MIN_NYG_M_TOTAL_OM1",
+      "moved_at": "2024-09-07T21:00:00Z",
+      "change_magnitude": 1.2439812961138728,
+      "direction": "DOWN",
+      "move_name": "42.2\u219241.0"
+    },
+    {
+      "game_id": "NFL_2024_REG_WK15_IND_DEN",
+      "market_id": "NFL_2024_REG_WK15_IND_DEN_M_TOTAL",
+      "market_type": "TOTAL",
+      "odds_move_id": "NFL_2024_REG_WK15_IND_DEN_M_TOTAL_OM1",
+      "moved_at": "2024-12-14T21:00:00Z",
+      "change_magnitude": 1.2392663940728639,
+      "direction": "UP",
+      "move_name": "42.8\u219244.0"
+    },
+    {
+      "game_id": "NFL_2024_REG_WK8_CAR_DEN",
+      "market_id": "NFL_2024_REG_WK8_CAR_DEN_M_TOTAL",
+      "market_type": "TOTAL",
+      "odds_move_id": "NFL_2024_REG_WK8_CAR_DEN_M_TOTAL_OM1",
+      "moved_at": "2024-10-26T21:00:00Z",
+      "change_magnitude": 1.215618558645879,
+      "direction": "DOWN",
+      "move_name": "41.7\u219240.5"
+    },
+    {
+      "game_id": "NFL_2024_REG_WK16_MIN_SEA",
+      "market_id": "NFL_2024_REG_WK16_MIN_SEA_M_TOTAL",
+      "market_type": "TOTAL",
+      "odds_move_id": "NFL_2024_REG_WK16_MIN_SEA_M_TOTAL_OM1",
+      "moved_at": "2024-12-21T21:00:00Z",
+      "change_magnitude": 1.2148215728912533,
+      "direction": "DOWN",
+      "move_name": "44.2\u219243.0"
+    },
+    {
+      "game_id": "NFL_2024_REG_WK5_NYJ_MIN",
+      "market_id": "NFL_2024_REG_WK5_NYJ_MIN_M_TOTAL",
+      "market_type": "TOTAL",
+      "odds_move_id": "NFL_2024_REG_WK5_NYJ_MIN_M_TOTAL_OM1",
+      "moved_at": "2024-10-05T21:00:00Z",
+      "change_magnitude": 1.1934083883324789,
+      "direction": "DOWN",
+      "move_name": "43.2\u219242.0"
+    },
+    {
+      "game_id": "NFL_2024_REG_WK17_DAL_PHI",
+      "market_id": "NFL_2024_REG_WK17_DAL_PHI_M_TOTAL",
+      "market_type": "TOTAL",
+      "odds_move_id": "NFL_2024_REG_WK17_DAL_PHI_M_TOTAL_OM1",
+      "moved_at": "2024-12-28T21:00:00Z",
+      "change_magnitude": 1.1895638816159249,
+      "direction": "DOWN",
+      "move_name": "38.7\u219237.5"
+    },
+    {
+      "game_id": "NFL_2024_REG_WK13_TEN_WAS",
+      "market_id": "NFL_2024_REG_WK13_TEN_WAS_M_SPREAD_FAV",
+      "market_type": "SPREAD",
+      "odds_move_id": "NFL_2024_REG_WK13_TEN_WAS_M_SPREAD_FAV_OM1",
+      "moved_at": "2024-11-30T21:00:00Z",
+      "change_magnitude": 1.1779762660273851,
+      "direction": "UP",
+      "move_name": "-7.2\u2192-6.0"
+    },
+    {
+      "game_id": "NFL_2024_REG_WK9_LV_CIN",
+      "market_id": "NFL_2024_REG_WK9_LV_CIN_M_TOTAL",
+      "market_type": "TOTAL",
+      "odds_move_id": "NFL_2024_REG_WK9_LV_CIN_M_TOTAL_OM1",
+      "moved_at": "2024-11-02T21:00:00Z",
+      "change_magnitude": 1.174485132984131,
+      "direction": "UP",
+      "move_name": "43.8\u219245.0"
+    },
+    {
+      "game_id": "NFL_2024_REG_WK7_HOU_GB",
+      "market_id": "NFL_2024_REG_WK7_HOU_GB_M_TOTAL",
+      "market_type": "TOTAL",
+      "odds_move_id": "NFL_2024_REG_WK7_HOU_GB_M_TOTAL_OM1",
+      "moved_at": "2024-10-19T21:00:00Z",
+      "change_magnitude": 1.173805576357509,
+      "direction": "DOWN",
+      "move_name": "49.2\u219248.0"
+    },
+    {
+      "game_id": "NFL_2024_REG_WK3_DET_ARI",
+      "market_id": "NFL_2024_REG_WK3_DET_ARI_M_TOTAL",
+      "market_type": "TOTAL",
+      "odds_move_id": "NFL_2024_REG_WK3_DET_ARI_M_TOTAL_OM1",
+      "moved_at": "2024-09-21T21:00:00Z",
+      "change_magnitude": 1.159741345117439,
+      "direction": "UP",
+      "move_name": "50.3\u219251.5"
+    },
+    {
+      "game_id": "NFL_2024_REG_WK9_NE_TEN",
+      "market_id": "NFL_2024_REG_WK9_NE_TEN_M_TOTAL",
+      "market_type": "TOTAL",
+      "odds_move_id": "NFL_2024_REG_WK9_NE_TEN_M_TOTAL_OM1",
+      "moved_at": "2024-11-02T21:00:00Z",
+      "change_magnitude": 1.1564180256557322,
+      "direction": "UP",
+      "move_name": "36.8\u219238.0"
+    },
+    {
+      "game_id": "NFL_2024_REG_WK11_GB_CHI",
+      "market_id": "NFL_2024_REG_WK11_GB_CHI_M_TOTAL",
+      "market_type": "TOTAL",
+      "odds_move_id": "NFL_2024_REG_WK11_GB_CHI_M_TOTAL_OM1",
+      "moved_at": "2024-11-16T21:00:00Z",
+      "change_magnitude": 1.1544069401862416,
+      "direction": "UP",
+      "move_name": "39.8\u219241.0"
+    },
+    {
+      "game_id": "NFL_2024_REG_WK1_JAX_MIA",
+      "market_id": "NFL_2024_REG_WK1_JAX_MIA_M_SPREAD_FAV",
+      "market_type": "SPREAD",
+      "odds_move_id": "NFL_2024_REG_WK1_JAX_MIA_M_SPREAD_FAV_OM1",
+      "moved_at": "2024-09-07T21:00:00Z",
+      "change_magnitude": 1.1412804755156003,
+      "direction": "UP",
+      "move_name": "-4.6\u2192-3.5"
+    },
+    {
+      "game_id": "NFL_2024_REG_WK16_TEN_IND",
+      "market_id": "NFL_2024_REG_WK16_TEN_IND_M_TOTAL",
+      "market_type": "TOTAL",
+      "odds_move_id": "NFL_2024_REG_WK16_TEN_IND_M_TOTAL_OM1",
+      "moved_at": "2024-12-21T21:00:00Z",
+      "change_magnitude": 1.1130879309559347,
+      "direction": "DOWN",
+      "move_name": "43.6\u219242.5"
+    },
+    {
+      "game_id": "NFL_2024_REG_WK17_IND_NYG",
+      "market_id": "NFL_2024_REG_WK17_IND_NYG_M_SPREAD_FAV",
+      "market_type": "SPREAD",
+      "odds_move_id": "NFL_2024_REG_WK17_IND_NYG_M_SPREAD_FAV_OM1",
+      "moved_at": "2024-12-28T21:00:00Z",
+      "change_magnitude": 1.1120544647846486,
+      "direction": "UP",
+      "move_name": "-8.6\u2192-7.5"
+    },
+    {
+      "game_id": "NFL_2024_REG_WK3_BAL_DAL",
+      "market_id": "NFL_2024_REG_WK3_BAL_DAL_M_SPREAD_FAV",
+      "market_type": "SPREAD",
+      "odds_move_id": "NFL_2024_REG_WK3_BAL_DAL_M_SPREAD_FAV_OM1",
+      "moved_at": "2024-09-21T21:00:00Z",
+      "change_magnitude": 1.111673080870389,
+      "direction": "DOWN",
+      "move_name": "-0.4\u2192-1.5"
+    },
+    {
+      "game_id": "NFL_2024_REG_WK7_LAC_ARI",
+      "market_id": "NFL_2024_REG_WK7_LAC_ARI_M_TOTAL",
+      "market_type": "TOTAL",
+      "odds_move_id": "NFL_2024_REG_WK7_LAC_ARI_M_TOTAL_OM1",
+      "moved_at": "2024-10-20T21:00:00Z",
+      "change_magnitude": 1.1088818832258127,
+      "direction": "DOWN",
+      "move_name": "45.6\u219244.5"
+    },
+    {
+      "game_id": "NFL_2024_REG_WK3_KC_ATL",
+      "market_id": "NFL_2024_REG_WK3_KC_ATL_M_TOTAL",
+      "market_type": "TOTAL",
+      "odds_move_id": "NFL_2024_REG_WK3_KC_ATL_M_TOTAL_OM1",
+      "moved_at": "2024-09-21T21:00:00Z",
+      "change_magnitude": 1.1036299794977324,
+      "direction": "DOWN",
+      "move_name": "47.6\u219246.5"
+    },
+    {
+      "game_id": "NFL_2024_REG_WK1_TEN_CHI",
+      "market_id": "NFL_2024_REG_WK1_TEN_CHI_M_TOTAL",
+      "market_type": "TOTAL",
+      "odds_move_id": "NFL_2024_REG_WK1_TEN_CHI_M_TOTAL_OM1",
+      "moved_at": "2024-09-07T21:00:00Z",
+      "change_magnitude": 1.096899694397088,
+      "direction": "DOWN",
+      "move_name": "45.6\u219244.5"
+    },
+    {
+      "game_id": "NFL_2024_REG_WK1_CAR_NO",
+      "market_id": "NFL_2024_REG_WK1_CAR_NO_M_TOTAL",
+      "market_type": "TOTAL",
+      "odds_move_id": "NFL_2024_REG_WK1_CAR_NO_M_TOTAL_OM1",
+      "moved_at": "2024-09-07T21:00:00Z",
+      "change_magnitude": 1.0928324053617828,
+      "direction": "UP",
+      "move_name": "40.4\u219241.5"
+    },
+    {
+      "game_id": "NFL_2024_REG_WK14_SEA_ARI",
+      "market_id": "NFL_2024_REG_WK14_SEA_ARI_M_TOTAL",
+      "market_type": "TOTAL",
+      "odds_move_id": "NFL_2024_REG_WK14_SEA_ARI_M_TOTAL_OM1",
+      "moved_at": "2024-12-07T21:00:00Z",
+      "change_magnitude": 1.0911472918278875,
+      "direction": "UP",
+      "move_name": "44.4\u219245.5"
+    },
+    {
+      "game_id": "NFL_2024_REG_WK2_SF_MIN",
+      "market_id": "NFL_2024_REG_WK2_SF_MIN_M_SPREAD_FAV",
+      "market_type": "SPREAD",
+      "odds_move_id": "NFL_2024_REG_WK2_SF_MIN_M_SPREAD_FAV_OM1",
+      "moved_at": "2024-09-14T21:00:00Z",
+      "change_magnitude": 1.089622166204312,
+      "direction": "UP",
+      "move_name": "-5.6\u2192-4.5"
+    },
+    {
+      "game_id": "NFL_2024_REG_WK14_CIN_DAL",
+      "market_id": "NFL_2024_REG_WK14_CIN_DAL_M_SPREAD_FAV",
+      "market_type": "SPREAD",
+      "odds_move_id": "NFL_2024_REG_WK14_CIN_DAL_M_SPREAD_FAV_OM1",
+      "moved_at": "2024-12-08T21:00:00Z",
+      "change_magnitude": 1.087131398211004,
+      "direction": "DOWN",
+      "move_name": "-3.4\u2192-4.5"
+    },
+    {
+      "game_id": "NFL_2024_REG_WK4_NE_SF",
+      "market_id": "NFL_2024_REG_WK4_NE_SF_M_TOTAL",
+      "market_type": "TOTAL",
+      "odds_move_id": "NFL_2024_REG_WK4_NE_SF_M_TOTAL_OM1",
+      "moved_at": "2024-09-28T21:00:00Z",
+      "change_magnitude": 1.072771496463794,
+      "direction": "DOWN",
+      "move_name": "42.6\u219241.5"
+    },
+    {
+      "game_id": "NFL_2024_REG_WK11_JAX_DET",
+      "market_id": "NFL_2024_REG_WK11_JAX_DET_M_SPREAD_FAV",
+      "market_type": "SPREAD",
+      "odds_move_id": "NFL_2024_REG_WK11_JAX_DET_M_SPREAD_FAV_OM1",
+      "moved_at": "2024-11-16T21:00:00Z",
+      "change_magnitude": 1.066097294172721,
+      "direction": "DOWN",
+      "move_name": "-12.4\u2192-13.5"
+    },
+    {
+      "game_id": "NFL_2024_REG_WK12_PIT_CLE",
+      "market_id": "NFL_2024_REG_WK12_PIT_CLE_M_TOTAL",
+      "market_type": "TOTAL",
+      "odds_move_id": "NFL_2024_REG_WK12_PIT_CLE_M_TOTAL_OM1",
+      "moved_at": "2024-11-20T21:00:00Z",
+      "change_magnitude": 1.0654055823030149,
+      "direction": "UP",
+      "move_name": "35.4\u219236.5"
+    },
+    {
+      "game_id": "NFL_2024_REG_WK2_TB_DET",
+      "market_id": "NFL_2024_REG_WK2_TB_DET_M_TOTAL",
+      "market_type": "TOTAL",
+      "odds_move_id": "NFL_2024_REG_WK2_TB_DET_M_TOTAL_OM1",
+      "moved_at": "2024-09-14T21:00:00Z",
+      "change_magnitude": 1.0493394324350476,
+      "direction": "DOWN",
+      "move_name": "52.5\u219251.5"
+    },
+    {
+      "game_id": "NFL_2024_REG_WK17_LAC_NE",
+      "market_id": "NFL_2024_REG_WK17_LAC_NE_M_TOTAL",
+      "market_type": "TOTAL",
+      "odds_move_id": "NFL_2024_REG_WK17_LAC_NE_M_TOTAL_OM1",
+      "moved_at": "2024-12-27T21:00:00Z",
+      "change_magnitude": 1.0449295465067863,
+      "direction": "DOWN",
+      "move_name": "43.0\u219242.0"
+    },
+    {
+      "game_id": "NFL_2024_REG_WK5_NO_KC",
+      "market_id": "NFL_2024_REG_WK5_NO_KC_M_TOTAL",
+      "market_type": "TOTAL",
+      "odds_move_id": "NFL_2024_REG_WK5_NO_KC_M_TOTAL_OM1",
+      "moved_at": "2024-10-06T21:00:00Z",
+      "change_magnitude": 1.0394907084990521,
+      "direction": "UP",
+      "move_name": "42.0\u219243.0"
+    },
+    {
+      "game_id": "NFL_2024_REG_WK4_DAL_NYG",
+      "market_id": "NFL_2024_REG_WK4_DAL_NYG_M_TOTAL",
+      "market_type": "TOTAL",
+      "odds_move_id": "NFL_2024_REG_WK4_DAL_NYG_M_TOTAL_OM1",
+      "moved_at": "2024-09-25T21:00:00Z",
+      "change_magnitude": 1.0339461299134882,
+      "direction": "UP",
+      "move_name": "43.5\u219244.5"
+    },
+    {
+      "game_id": "NFL_2024_REG_WK7_NE_JAX",
+      "market_id": "NFL_2024_REG_WK7_NE_JAX_M_TOTAL",
+      "market_type": "TOTAL",
+      "odds_move_id": "NFL_2024_REG_WK7_NE_JAX_M_TOTAL_OM1",
+      "moved_at": "2024-10-19T21:00:00Z",
+      "change_magnitude": 1.0308208672758568,
+      "direction": "UP",
+      "move_name": "41.5\u219242.5"
+    },
+    {
+      "game_id": "NFL_2024_REG_WK12_NE_MIA",
+      "market_id": "NFL_2024_REG_WK12_NE_MIA_M_TOTAL",
+      "market_type": "TOTAL",
+      "odds_move_id": "NFL_2024_REG_WK12_NE_MIA_M_TOTAL_OM1",
+      "moved_at": "2024-11-23T21:00:00Z",
+      "change_magnitude": 1.0256357992790086,
+      "direction": "DOWN",
+      "move_name": "46.5\u219245.5"
+    },
+    {
+      "game_id": "NFL_2024_REG_WK16_PIT_BAL",
+      "market_id": "NFL_2024_REG_WK16_PIT_BAL_M_TOTAL",
+      "market_type": "TOTAL",
+      "odds_move_id": "NFL_2024_REG_WK16_PIT_BAL_M_TOTAL_OM1",
+      "moved_at": "2024-12-20T21:00:00Z",
+      "change_magnitude": 1.0255532733573816,
+      "direction": "DOWN",
+      "move_name": "45.0\u219244.0"
+    },
+    {
+      "game_id": "NFL_2024_REG_WK12_BAL_LAC",
+      "market_id": "NFL_2024_REG_WK12_BAL_LAC_M_SPREAD_FAV",
+      "market_type": "SPREAD",
+      "odds_move_id": "NFL_2024_REG_WK12_BAL_LAC_M_SPREAD_FAV_OM1",
+      "moved_at": "2024-11-24T21:00:00Z",
+      "change_magnitude": 1.017613023347969,
+      "direction": "DOWN",
+      "move_name": "-2.0\u2192-3.0"
+    },
+    {
+      "game_id": "NFL_2024_REG_WK4_NO_ATL",
+      "market_id": "NFL_2024_REG_WK4_NO_ATL_M_SPREAD_FAV",
+      "market_type": "SPREAD",
+      "odds_move_id": "NFL_2024_REG_WK4_NO_ATL_M_SPREAD_FAV_OM1",
+      "moved_at": "2024-09-28T21:00:00Z",
+      "change_magnitude": 0.9901793579087099,
+      "direction": "DOWN",
+      "move_name": "-1.5\u2192-2.5"
+    },
+    {
+      "game_id": "NFL_2024_REG_WK10_BUF_IND",
+      "market_id": "NFL_2024_REG_WK10_BUF_IND_M_SPREAD_FAV",
+      "market_type": "SPREAD",
+      "odds_move_id": "NFL_2024_REG_WK10_BUF_IND_M_SPREAD_FAV_OM1",
+      "moved_at": "2024-11-09T21:00:00Z",
+      "change_magnitude": 0.9828613842753189,
+      "direction": "UP",
+      "move_name": "-5.5\u2192-4.5"
+    },
+    {
+      "game_id": "NFL_2024_REG_WK11_BAL_PIT",
+      "market_id": "NFL_2024_REG_WK11_BAL_PIT_M_SPREAD_FAV",
+      "market_type": "SPREAD",
+      "odds_move_id": "NFL_2024_REG_WK11_BAL_PIT_M_SPREAD_FAV_OM1",
+      "moved_at": "2024-11-16T21:00:00Z",
+      "change_magnitude": 0.9826420526489548,
+      "direction": "UP",
+      "move_name": "-4.0\u2192-3.0"
+    },
+    {
+      "game_id": "NFL_2024_REG_WK11_CLE_NO",
+      "market_id": "NFL_2024_REG_WK11_CLE_NO_M_SPREAD_FAV",
+      "market_type": "SPREAD",
+      "odds_move_id": "NFL_2024_REG_WK11_CLE_NO_M_SPREAD_FAV_OM1",
+      "moved_at": "2024-11-16T21:00:00Z",
+      "change_magnitude": 0.9810524778581733,
+      "direction": "DOWN",
+      "move_name": "-0.0\u2192-1.0"
+    },
+    {
+      "game_id": "NFL_2024_REG_WK18_CAR_ATL",
+      "market_id": "NFL_2024_REG_WK18_CAR_ATL_M_TOTAL",
+      "market_type": "TOTAL",
+      "odds_move_id": "NFL_2024_REG_WK18_CAR_ATL_M_TOTAL_OM1",
+      "moved_at": "2025-01-04T21:00:00Z",
+      "change_magnitude": 0.978758126798347,
+      "direction": "DOWN",
+      "move_name": "50.0\u219249.0"
+    },
+    {
+      "game_id": "NFL_2024_REG_WK4_KC_LAC",
+      "market_id": "NFL_2024_REG_WK4_KC_LAC_M_TOTAL",
+      "market_type": "TOTAL",
+      "odds_move_id": "NFL_2024_REG_WK4_KC_LAC_M_TOTAL_OM1",
+      "moved_at": "2024-09-28T21:00:00Z",
+      "change_magnitude": 0.9787577758959145,
+      "direction": "UP",
+      "move_name": "40.5\u219241.5"
+    },
+    {
+      "game_id": "NFL_2024_REG_WK8_TEN_DET",
+      "market_id": "NFL_2024_REG_WK8_TEN_DET_M_TOTAL",
+      "market_type": "TOTAL",
+      "odds_move_id": "NFL_2024_REG_WK8_TEN_DET_M_TOTAL_OM1",
+      "moved_at": "2024-10-26T21:00:00Z",
+      "change_magnitude": 0.978699141479261,
+      "direction": "DOWN",
+      "move_name": "46.0\u219245.0"
+    },
+    {
+      "game_id": "NFL_2024_REG_WK3_WAS_CIN",
+      "market_id": "NFL_2024_REG_WK3_WAS_CIN_M_SPREAD_FAV",
+      "market_type": "SPREAD",
+      "odds_move_id": "NFL_2024_REG_WK3_WAS_CIN_M_SPREAD_FAV_OM1",
+      "moved_at": "2024-09-22T21:00:00Z",
+      "change_magnitude": 0.9725360168954467,
+      "direction": "DOWN",
+      "move_name": "-6.5\u2192-7.5"
+    },
+    {
+      "game_id": "NFL_2024_REG_WK18_CLE_BAL",
+      "market_id": "NFL_2024_REG_WK18_CLE_BAL_M_SPREAD_FAV",
+      "market_type": "SPREAD",
+      "odds_move_id": "NFL_2024_REG_WK18_CLE_BAL_M_SPREAD_FAV_OM1",
+      "moved_at": "2025-01-03T21:00:00Z",
+      "change_magnitude": 0.9588401084623186,
+      "direction": "UP",
+      "move_name": "-21.0\u2192-20.0"
+    },
+    {
+      "game_id": "NFL_2024_REG_WK7_SEA_ATL",
+      "market_id": "NFL_2024_REG_WK7_SEA_ATL_M_TOTAL",
+      "market_type": "TOTAL",
+      "odds_move_id": "NFL_2024_REG_WK7_SEA_ATL_M_TOTAL_OM1",
+      "moved_at": "2024-10-19T21:00:00Z",
+      "change_magnitude": 0.9537875424142968,
+      "direction": "UP",
+      "move_name": "50.5\u219251.5"
+    },
+    {
+      "game_id": "NFL_2024_REG_WK14_GB_DET",
+      "market_id": "NFL_2024_REG_WK14_GB_DET_M_TOTAL",
+      "market_type": "TOTAL",
+      "odds_move_id": "NFL_2024_REG_WK14_GB_DET_M_TOTAL_OM1",
+      "moved_at": "2024-12-04T21:00:00Z",
+      "change_magnitude": 0.9503095889398949,
+      "direction": "DOWN",
+      "move_name": "53.5\u219252.5"
+    },
+    {
+      "game_id": "NFL_2024_REG_WK12_TEN_HOU",
+      "market_id": "NFL_2024_REG_WK12_TEN_HOU_M_TOTAL",
+      "market_type": "TOTAL",
+      "odds_move_id": "NFL_2024_REG_WK12_TEN_HOU_M_TOTAL_OM1",
+      "moved_at": "2024-11-23T21:00:00Z",
+      "change_magnitude": 0.9491506694343101,
+      "direction": "DOWN",
+      "move_name": "41.4\u219240.5"
+    },
+    {
+      "game_id": "NFL_2024_REG_WK16_CLE_CIN",
+      "market_id": "NFL_2024_REG_WK16_CLE_CIN_M_TOTAL",
+      "market_type": "TOTAL",
+      "odds_move_id": "NFL_2024_REG_WK16_CLE_CIN_M_TOTAL_OM1",
+      "moved_at": "2024-12-21T21:00:00Z",
+      "change_magnitude": 0.9394784164727383,
+      "direction": "DOWN",
+      "move_name": "47.4\u219246.5"
+    },
+    {
+      "game_id": "NFL_2024_REG_WK18_CIN_PIT",
+      "market_id": "NFL_2024_REG_WK18_CIN_PIT_M_SPREAD_FAV",
+      "market_type": "SPREAD",
+      "odds_move_id": "NFL_2024_REG_WK18_CIN_PIT_M_SPREAD_FAV_OM1",
+      "moved_at": "2025-01-03T21:00:00Z",
+      "change_magnitude": 0.9394449187578757,
+      "direction": "DOWN",
+      "move_name": "-1.6\u2192-2.5"
+    },
+    {
+      "game_id": "NFL_2024_REG_WK11_MIN_TEN",
+      "market_id": "NFL_2024_REG_WK11_MIN_TEN_M_SPREAD_FAV",
+      "market_type": "SPREAD",
+      "odds_move_id": "NFL_2024_REG_WK11_MIN_TEN_M_SPREAD_FAV_OM1",
+      "moved_at": "2024-11-16T21:00:00Z",
+      "change_magnitude": 0.9391875855731477,
+      "direction": "UP",
+      "move_name": "-6.9\u2192-6.0"
+    },
+    {
+      "game_id": "NFL_2024_REG_WK18_CAR_ATL",
+      "market_id": "NFL_2024_REG_WK18_CAR_ATL_M_SPREAD_FAV",
+      "market_type": "SPREAD",
+      "odds_move_id": "NFL_2024_REG_WK18_CAR_ATL_M_SPREAD_FAV_OM1",
+      "moved_at": "2025-01-04T21:00:00Z",
+      "change_magnitude": 0.9275244860945264,
+      "direction": "DOWN",
+      "move_name": "-7.1\u2192-8.0"
+    },
+    {
+      "game_id": "NFL_2024_REG_WK18_MIN_DET",
+      "market_id": "NFL_2024_REG_WK18_MIN_DET_M_SPREAD_FAV",
+      "market_type": "SPREAD",
+      "odds_move_id": "NFL_2024_REG_WK18_MIN_DET_M_SPREAD_FAV_OM1",
+      "moved_at": "2025-01-04T21:00:00Z",
+      "change_magnitude": 0.9117370488738068,
+      "direction": "UP",
+      "move_name": "-3.9\u2192-3.0"
+    },
+    {
+      "game_id": "NFL_2024_REG_WK13_CLE_DEN",
+      "market_id": "NFL_2024_REG_WK13_CLE_DEN_M_SPREAD_FAV",
+      "market_type": "SPREAD",
+      "odds_move_id": "NFL_2024_REG_WK13_CLE_DEN_M_SPREAD_FAV_OM1",
+      "moved_at": "2024-12-01T21:00:00Z",
+      "change_magnitude": 0.910347082072744,
+      "direction": "DOWN",
+      "move_name": "-5.6\u2192-6.5"
+    }
+  ],
+  "unexplained_odds_moves_count": 100
+}
