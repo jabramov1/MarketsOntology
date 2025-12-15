@@ -1,6 +1,7 @@
 # NFL Event & Market Temporal Knowledge Graph (MVP)
 
 This repo builds a Neo4j graph for the **2024 NFL season** with:
+
 - Season → Game → Drive → Play (event hierarchy)
 - Team / Player entities + temporal `PLAYS_FOR`
 - Markets + time-stamped `BettingLine` snapshots
@@ -10,6 +11,7 @@ This repo builds a Neo4j graph for the **2024 NFL season** with:
 ## 1) Setup
 
 ### Install
+
 ```bash
 python -m venv .venv
 source .venv/bin/activate
@@ -17,12 +19,15 @@ pip install -r requirements.txt
 ```
 
 ### Neo4j Aura credentials
+
 Create a `.env` file (or export env vars) with:
+
 - `NEO4J_URI`
 - `NEO4J_USERNAME`
 - `NEO4J_PASSWORD`
 
 Test:
+
 ```bash
 python db.py
 ```
@@ -35,6 +40,7 @@ python generate_news.py --season 2024  # deterministic: 1 preview per game + inj
 ```
 
 Optional odds dataset (Kaggle):
+
 - Put `spreadspoke_scores.csv` at `data/spreadspoke_scores.csv`
 - Or set `ODDS_CSV_PATH` in `.env`
 
@@ -51,6 +57,7 @@ python queries.py --export
 ```
 
 Outputs:
+
 - `query_outputs/all_queries.json`
 
 ## (Optional) Semantic search (NewsItem embeddings)
@@ -70,6 +77,7 @@ python3 -B embed_news.py --q "Chiefs spread" --in markets --k 5
 ## (Optional) Part 4.4 (WIP)
 
 Link detection / completeness checking is available as a read-only script (no edge writes):
+
 ```bash
 python3 link_detection.py --out-dir query_outputs
 ```
@@ -77,30 +85,35 @@ python3 link_detection.py --out-dir query_outputs
 ## Data Sources and Provenance
 
 ### Kaggle NFL Betting Data
+
 - **Source**: [Kaggle NFL Scores and Betting Data](https://www.kaggle.com/datasets/tobycrabtree/nfl-scores-and-betting-data)
 - **Contains**: Spreads, totals, and final scores for NFL games 1966-2025
 - **Accuracy**: Lines are within 0.5-1 point of known closing lines
 - **Labeling**: `source='kaggle'`, `synthetic=false`
 
 ### Synthetic Odds Movement Data
-The `--synth-odds-moves` flag generates synthetic opening lines to demonstrate 
+
+The `--synth-odds-moves` flag generates synthetic opening lines to demonstrate
 temporal schema capabilities. All synthetic data is explicitly flagged:
 
-| Property | Value | Description |
-|----------|-------|-------------|
-| `synthetic` | `true` | Indicates generated (not real) data |
-| `source` | `'generated'` | Provenance marker for data lineage |
+| Property    | Value         | Description                         |
+| ----------- | ------------- | ----------------------------------- |
+| `synthetic` | `true`        | Indicates generated (not real) data |
+| `source`    | `'generated'` | Provenance marker for data lineage  |
 
 **Purpose:** Demonstrate that:
+
 - Odds are modeled as time-indexed entities
 - Movement can be queried and linked to events/news
 - The schema supports real-time ingestion
 
-**Not claimed:** Statistical validity of correlations. With real historical 
+**Not claimed:** Statistical validity of correlations. With real historical
 or live odds data, replacing synthetic data is purely an ingestion problem.
 
 ### Graph Statistics (2024 Season)
+
 Typical counts with `--pbp-sample 10000`:
+
 ```
 Play: 9,882              BettingLine: 1,020
 Drive: 4,730             Market: 510
@@ -114,6 +127,7 @@ REPORTED_BEFORE: 6,214
 ### Provenance Filtering Examples
 
 **Query real data only** (exclude synthetic):
+
 ```cypher
 // Get only real closing lines from Kaggle
 MATCH (g:Game)-[:HAS_MARKET]->(m:Market)-[:HAS_LINE]->(bl:BettingLine)
@@ -122,6 +136,7 @@ RETURN g.id, m.market_type, bl.value, bl.timestamp
 ```
 
 **Query synthetic data only** (for testing):
+
 ```cypher
 // Get only synthetic opening lines
 MATCH (g:Game)-[:HAS_MARKET]->(m:Market)-[:HAS_LINE]->(bl:BettingLine)
@@ -130,6 +145,7 @@ RETURN g.id, m.market_type, bl.value, bl.timestamp, bl.source
 ```
 
 **Compare real vs synthetic**:
+
 ```cypher
 // Opening vs closing line comparison with provenance
 MATCH (m:Market)-[:HAS_LINE]->(closing:BettingLine {synthetic: false})
@@ -145,6 +161,7 @@ LIMIT 10
 ```
 
 **Filter by data source**:
+
 ```cypher
 // Get injury events from official reports only
 MATCH (i:InjuryEvent)-[:AFFECTS]->(p:Player)
@@ -157,6 +174,7 @@ LIMIT 20
 ### Schema Discipline: Observable vs. Heuristic Relationships
 
 This graph follows strict **schema discipline** (per CEO guidance):
+
 - **Observable relationships** store only verifiable facts (game schedules, play-by-play, official rosters)
 - **Heuristic relationships** use text matching with confidence scores (news → game links)
 - **No speculative causality** is encoded in edges - causality is inferred at query-time
@@ -166,8 +184,7 @@ See [ontology_spec.md Section 3.6](ontology_spec.md#36-relationship-classificati
 **Example - Query-time causality vs. stored edges**:
 
 ```cypher
-// BAD: Encoding speculation in the graph (NOT implemented)
-// MATCH (i:InjuryEvent)-[:MAY_IMPACT]->(m:Market)  // ❌ Speculative edge
+// BAD: Encoding speculation edges like may_inpact in the graph (NOT implemented)
 
 // GOOD: Infer correlation at query-time (our approach)
 MATCH (i:InjuryEvent)-[:AFFECTS]->(p:Player)-[:PLAYS_FOR]->(t:Team)
@@ -181,6 +198,7 @@ ORDER BY om.change_magnitude DESC
 ```
 
 **Why this matters**:
+
 - Graph stores **observable facts** only
 - **Downstream models** can infer causality without corrupting the graph
 - Queries can test **multiple causality hypotheses** without reloading data
